@@ -520,6 +520,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  /* Contact */
+  .contactDiv{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 /* ------------Project Section-------------- */
@@ -539,6 +544,7 @@
 /* ------------Contact Section-------------- */
 .contactDiv {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: left;
   gap: 5%;
